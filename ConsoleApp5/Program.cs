@@ -16,6 +16,7 @@ namespace ConsoleApp5
             double porcentagem = double.Parse(Console.ReadLine()) / 100;
             func.AumentarSalario(porcentagem);
             Console.WriteLine($"Dados atualizados: {func.Nome}, R${func.SalarioLiquido():N2}");
+            Console.WriteLine("alo galera de cowboy");
 
         }
     }
